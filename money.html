@@ -15,61 +15,124 @@
 
   <h2>Find the Coins by Gabe</h2>
   <p>Click on the locations to find coins, beware the monster</p>
-  <div id="locations">Number of locations checked is 0</div>
-  <div>Click for help</div>
-  <div id="help">Help report</div>
+  <div id="locations">Number of locations checked: 0</div>
+  <div id="help">Help report:</div>
+  <button type="button" class="btn btn-success" onclick="help()">Click for Help</button>
+  
 
   <div>
     <div class="row"> <!--Row 1 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image0" onclick="check(0)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image1" onclick="check(1)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image2" onclick="check(2)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image3" onclick="check(3)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image4" onclick="check(4)"></div>
     </div>
     <div class="row"> <!--Row 2 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image5" onclick="check(5)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image6" onclick="check(6)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image7" onclick="check(7)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image8" onclick="check(8)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image9" onclick="check(9)"></div>
     </div>
     <div class="row"> <!--Row 3 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image10" onclick="check(10)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image11" onclick="check(11)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image12" onclick="check(12)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image13" onclick="check(13)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image14" onclick="check(14)"></div>
     </div>
     <div class="row"> <!--Row 4 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image15" onclick="check(15)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image16" onclick="check(16)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image17" onclick="check(17)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image18" onclick="check(18)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image19" onclick="check(19)"></div>
     </div>
     <div class="row"> <!--Row 5 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image20" onclick="check(20)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image21" onclick="check(21)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image22" onclick="check(22)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image23" onclick="check(23)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image24" onclick="check(24)"></div>
     </div>
     <div class="row"> <!--Row 6 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image25" onclick="check(25)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image26" onclick="check(26)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image27" onclick="check(27)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image28" onclick="check(28)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image29" onclick="check(29)"></div>
     </div>
     <div class="row"> <!--Row 7 -->
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
-      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="b" onclick="check(x)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image30" onclick="check(30)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image31" onclick="check(31)"></div>
+      <div class="col-sm-3"><img src="building.jpg" alt="building" height="50px" width="auto" id="image32" onclick="check(32)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image33" onclick="check(33)"></div>
+      <div class="col-sm-2"><img src="building.jpg" alt="building" height="50px" width="auto" id="image34" onclick="check(34)"></div>
     </div>
   </div>
 
+  <script>
+    let score = 0
+    let locations = 0
+    let lastLocation = 0
+    let fancyCoinLocations = [2, 5, 14, 19, 23, 33]
+    let monsterLocation = 20
+    let gameOver = false
+
+    function check(position){
+      position = Number(position)
+      if(!gameOver){
+        let selected = document.getElementById(String("image" + position))
+        if(position == monsterLocation){
+          selected.src = "monster.jpg"
+          score -= 5
+          gameOver = true
+        }else if(fancyCoinLocations.includes(position)){
+          selected.src = "fancy.jpg"
+          score += 3
+        }else{
+          selected.src = "penny.jpg"
+          score += 1
+        }
+        locations ++
+      }
+       document.getElementById("locations").innerHTML = ("Number of Locations Checked: " + locations)
+       lastLocation = position
+    }
+    function help(){
+      let result = document.getElementById("help")
+
+      let toCheck = [lastLocation+1, lastLocation-1, lastLocation+5, lastLocation-5]
+      let fancyClose = false
+      for(val of toCheck){
+        if(fancyCoinLocations.includes(val)){
+          fancyClose = true
+          break
+        }
+      }
+
+      let col = lastLocation % 5
+      let row = Math.trunc(lastLocation / 5)
+      let monCol = monsterLocation % 5
+      let monRow = Math.trunc(monsterLocation / 5)
+
+      colClose = Math.abs(monCol - col)
+      rowClose = Math.abs(monRow - row)
+
+      console.log("last " + lastLocation)
+      console.log("col " + col)
+      console.log("row " + row)
+      console.log("monCol " + monCol)
+      console.log("monRow " + monRow)
+      console.log("colClose " + colClose)
+      console.log("rowClose " + rowClose)
+      console.log("Comb " + Number(colClose + rowClose))
+
+      if(colClose + rowClose <= 1){result.innerHTML = "Help Report: Grrr"}
+      else if(fancyClose){result.innerHTML = "Help Report: So Close"}
+      else {result.innerHTML = "Help Report: All Clear"}
+    }
+  </script>
 </body>
 </html>
